@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+  }
+  
+img {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+body {
+  text-align: center;
+}
