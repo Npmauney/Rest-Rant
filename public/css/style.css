@@ -4,11 +4,43 @@ h1 {
   }
   
 img {
-    width: 500px;
+    width: 65%;
     display: block;
     margin: auto;
 }
 
 body {
   text-align: center;
+  background-color: lightblue;
+}
+
+main {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+nav {
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5em;
+}
+
+nav a:hover {
+  color: pink;
+  text-decoration: none;
 }

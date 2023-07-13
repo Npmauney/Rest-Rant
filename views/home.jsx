@@ -5,7 +5,7 @@ function home () {
     return (
         <Def>
             <main>
-                <h1>HOME</h1>
+                <h1>REST-RANT</h1>
                 <div>
                     <img src="/images/blake-verdoorn.jpg" alt="Bridge in Mountains"/>
                     <div>
