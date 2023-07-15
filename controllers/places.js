@@ -26,6 +26,21 @@ router.get('/:id', (req, res) => {
   }
 })
 
+//GET edit page
+router.get('/:id/edit', (req, res) => {
+  let id = Number(req.params.id)
+  if (isNaN(id)) {
+      res.render('error404')
+  }
+  else if (!places[id]) {
+      res.render('error404')
+  }
+  else {
+    res.render('places/edit', { place: places[id] })
+  }
+})
+
+
 //DELETE
 router.delete('/:id', (req, res) => {
   let id = Number(req.params.id)
